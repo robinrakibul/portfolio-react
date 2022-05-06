@@ -14,14 +14,14 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className='box btn_shadow '>
+      <div className='box btn_shadow'>
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
         <div className='category d_flex'>
-          <span onClick={toggleModal}>{props.category}</span>
+          <span onClick={toggleModal}>{props.project}</span>
           <label>
-            <i className='far fa-heart'></i> {props.totalLike}
+            <i className='fa-solid fa-heart'></i> {props.totalLike}
           </label>
         </div>
         <div className='title'>
@@ -43,14 +43,10 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
               <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
+                  Check<i class='fas fa-chevron-right'></i>
                 </button>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>

@@ -8,21 +8,22 @@ const Portfolio = () => {
     <>
       <section className='Portfolio top' id='portfolio'>
         <div className='container'>
-          <div className='heading text-center '>
+          <div className='heading text-center'>
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Portfolio</h1>
+            <h1 className="font-bold">My Portfolio</h1>
+            <h5 className="mt-5 text-2xl">Web Development Projects</h5>
           </div>
 
           <div className='content grid'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+              return <Card key={index} image={value.image} project={value.project} totalLike={value.totalLike} title={value.title} />
             })}
 
             {/*<div className='box btn_shadow '>
               <div className='img'>
                   <img src='https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg' alt='' />
               </div>
-              <div className='category d_flex'>
+              <div className='project d_flex'>
                   <span>Development</span>
                   <label>
                     <i className='far fa-heart'></i> 360
