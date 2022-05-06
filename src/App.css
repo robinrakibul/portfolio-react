@@ -55,9 +55,10 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
-  background: #68abd0;
+  background: #a6c5d5;
   color: white;
-  transform: translateY(-10px);
+  border: 2px solid white;
+  transform: translateY(-5px);
 }
 .box_shodow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
