@@ -1,39 +1,34 @@
 const data = [
   {
     id: 1,
-    image: "https://img.icons8.com/ios/64/000000/menu.png",
-    title: "Business Stratagy",
-    desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    image: "https://img.icons8.com/ios/100/000000/web.png",
+    title: "Front-end Development",
+    desc: "I like to code things from scratch, and enjoy bringing ideas on frontend development.",
+    // tools: "html, css, bootstrap, tailwind, github, react, npm, javascript, terminal, google fonts, chrome dev tools, vscode, figma, adobe illustrator etc"
   },
   {
     id: 2,
-    image: "https://img.icons8.com/ios/40/000000/open-book.png",
-    title: "App Development",
-    desc: " It uses a dictionary of over 200 Latin words, combined witha handful of model sentence.",
+    image: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/100/000000/external-designing-graphic-designer-flatart-icons-outline-flatarticons.png",
+    title: "Design And Development",
+    desc: "I like to keep the content simple in structure, clear in code, put useful comments, modern design, performance optimized",
   },
   {
     id: 3,
-    image: "https://img.icons8.com/fluency-systems-regular/64/000000/retro-tv.png ",
-    title: "App Development",
-    desc: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    image: "https://img.icons8.com/external-nawicon-detailed-outline-nawicon/100/000000/external-responsive-seo-and-marketing-nawicon-detailed-outline-nawicon.png",
+    title: "Responsive Design",
+    desc: "I do make responsive design which enables the website accessible to all the users with any kind of devices",
   },
   {
     id: 4,
-    image: "https://img.icons8.com/material-outlined/64/000000/topic--v1.png ",
-    title: "Mobile App",
-    desc: "There are many variations of passages of Lorem Ipsum	available, but the majority.",
+    image: "https://img.icons8.com/pastel-glyph/100/000000/website-analytics--v2.png",
+    title: "Website Analytics",
+    desc: "Get insights the data who is browsing your site, how is your website behaving to users and optimize the website accordingly",
   },
   {
     id: 5,
-    image: "https://img.icons8.com/ios-filled/64/000000/wifi.png ",
-    title: "CEO Marketing",
-    desc: "always free from repetition, injected humour, or non-characteristic words etc.",
-  },
-  {
-    id: 6,
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
-    title: "Personal Portfolio April",
-    desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-  },
+    image: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/100/000000/external-research-online-learning-vitaliy-gorbachev-lineal-vitaly-gorbachev.png",
+    title: "Research And Report",
+    desc: "I have the ability to search for, locate, organise, extract, do research and to write report, use online information that is relevant to a particular topic.",
+  }
 ]
 export default data
