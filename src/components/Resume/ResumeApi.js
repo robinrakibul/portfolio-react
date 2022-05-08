@@ -2,26 +2,29 @@ const ResumeApi = [
   {
     id: 1,
     category: "education",
-    year: "University of DVI (1997 - 2001)",
-    title: "Personal Portfolio April Fools",
-    desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.30/5",
+    institute: "East West University",
+    year: 2021,
+    major: 'Computer Science And Engineering (CSE)',
+    rate: "CGPA 2.77/4",
+    exam: "Bachelor Of Science (BSC)"
   },
   {
     id: 2,
     category: "education",
-    year: "College of Studies (2000 - 2002) ",
-    title: "Examples Of Personal Portfolio",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.50/5",
+    institute: "Ideal College, Dhanmondi",
+    year: 2016,
+    major: 'Science',
+    rate: "GPA 4.75/5",
+    exam: "Higher Secondary Certificate (HSC)"
   },
   {
     id: 3,
     category: "education",
-    year: "University of Studies (1997 - 2001) ",
-    title: "Tips For Personal Portfolio",
-    desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.80/5 ",
+    institute: "Mirpur Bangla High School",
+    year: 2014,
+    major: 'Science',
+    rate: "GPA 5/5",
+    exam: "Secondary School Certificate (SSC)"
   },
   {
     id: 4,

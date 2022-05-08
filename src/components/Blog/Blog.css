@@ -2,6 +2,7 @@
 .modal-blog.overlay {
   overflow: scroll;
 }
+
 .modal-blog.modal .modal-content {
   position: relative;
   top: 10%;
@@ -10,12 +11,22 @@
   margin: auto;
   margin-bottom: 10%;
 }
+
 .modal-blog .modal-content .left,
 .modal-blog .modal-content .right {
   width: 100%;
   padding: 0;
   margin-top: 30px;
 }
+
+
+.researchimg img {
+  width: 50%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
 /*----------blog_contact--------*/
 
 .blog_contact .left,
@@ -28,6 +39,7 @@
   .modal-blog.modal .modal-content {
     max-width: 90%;
   }
+
   .modal-blog.modal .modal-content {
     margin-bottom: 20%;
   }

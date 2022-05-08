@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className='container'>
           <div className='heading text-center'>
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1 className="font-bold">My Portfolio</h1>
+            <h1 className="font-bold">My Projects</h1>
             <h5 className="mt-5 text-2xl">Web Development Projects</h5>
           </div>
 

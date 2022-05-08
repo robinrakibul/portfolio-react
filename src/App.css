@@ -54,13 +54,13 @@ button {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
-.btn_shadow:hover {
+.btn_shadow1:hover {
   background: #a6c5d5;
   color: white;
   border: 2px solid white;
   transform: translateY(-5px);
 }
-.box_shodow {
+.box_shodow1 {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
