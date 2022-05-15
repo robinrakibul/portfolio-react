@@ -71,7 +71,7 @@ body.active-modal {
 .modal,
 .overlay {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   top: 0;
   left: 0;
   right: 0;
@@ -135,19 +135,57 @@ body.active-modal {
 }
 /*------------popup--------*/
 @media (max-width: 768px) {
-  .modal,
-  .overlay {
-    overflow: scroll;
+  .modal-text {
+    padding: 0px;
   }
-
-  .modal .modal-img {
-    margin: 50px 0 50px 0;
+  .modal-text button.close-modal i {
+    margin: 0;
   }
-  .modal-content {
-    flex-direction: column;
+  .btn_shadow{
+    padding: 10px !important;
   }
-  .modal .right,
-  .modal .left {
-    padding: 0;
+  
+}
+@media (min-width:769px) and (max-width: 1080px) {
+  .modal-text {
+    padding: 30px;
   }
+  .btn_shadow{
+    padding: 10px !important;
+  }
+  .modal-text {
+    margin-left: 40px;
+    padding: 20px
+  }
+  .modal-text h1 {
+    margin: 0px;
+    font-size: 10px;
+  }
+  .modal-text p {
+    font-size: 17px;
+    margin-bottom: 5px;
+    line-height: 25px;
+  }
+  .modal-text button {
+    margin-right: 10px;
+    color: #0984e3;
+  }
+  .modal-text button i {
+    margin-left: 10px;
+  }
+  .modal-text button.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0 0;
+    font-size: 20px;
+  }
+  .modal-text button.close-modal i {
+    margin: 0;
+  }
+  
 }

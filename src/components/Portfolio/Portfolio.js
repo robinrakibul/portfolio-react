@@ -11,31 +11,13 @@ const Portfolio = () => {
           <div className='heading text-center'>
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
             <h1 className="font-bold">My Projects</h1>
-            <h5 className="mt-5 text-2xl">Web Development Projects</h5>
+            <h5 className="mt-5 text-2xl">React Projects</h5>
           </div>
 
-          <div className='content grid'>
+          <div className='content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} project={value.project} totalLike={value.totalLike} title={value.title} />
+              return <Card key={index} image={value.image} project={value.project} totalLike={value.totalLike} title={value.title} description={value.description.slice(0,100)} project_url={value.project_url} />
             })}
-
-            {/*<div className='box btn_shadow '>
-              <div className='img'>
-                  <img src='https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg' alt='' />
-              </div>
-              <div className='project d_flex'>
-                  <span>Development</span>
-                  <label>
-                    <i className='far fa-heart'></i> 360
-                  </label>
-              </div>
-              <div className='title'>
-                  <h2>Mobile app landing design & Services</h2>
-                <a href='' className='arrow'>
-                  <i className='fas fa-arrow-right'></i>
-                </a>
-              </div>
-            </div>*/}
           </div>
         </div>
       </section>

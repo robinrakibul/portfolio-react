@@ -37,6 +37,7 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
+          <h4>YOU CAN EASILY SEND ME A MESSAGE</h4>
           <h1 className="font-bold">Contact Me</h1>
           </div>
 

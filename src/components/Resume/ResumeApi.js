@@ -5,7 +5,7 @@ const ResumeApi = [
     institute: "East West University",
     year: 2021,
     major: 'Computer Science And Engineering (CSE)',
-    rate: "CGPA 2.77/4",
+    rate: "CGPA 2.77/4.00",
     exam: "Bachelor Of Science (BSC)"
   },
   {
@@ -14,7 +14,7 @@ const ResumeApi = [
     institute: "Ideal College, Dhanmondi",
     year: 2016,
     major: 'Science',
-    rate: "GPA 4.75/5",
+    rate: "GPA 4.75/5.00",
     exam: "Higher Secondary Certificate (HSC)"
   },
   {
@@ -23,7 +23,7 @@ const ResumeApi = [
     institute: "Mirpur Bangla High School",
     year: 2014,
     major: 'Science',
-    rate: "GPA 5/5",
+    rate: "GPA 5.00/5.00",
     exam: "Secondary School Certificate (SSC)"
   },
   {

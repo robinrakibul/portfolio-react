@@ -1,45 +1,30 @@
 const Portfolio_data = [
   {
     id: 1,
-    project: "Project Name",
+    project: "Camping Gears",
     totalLike: "600",
-    title: "The services provide for design ",
+    title: "An inventory management full stack web project using reactjs, mongodb, nodejs",
     image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
+    description: "This website is created to control a warehouse. In this project, I have used camping idea to implement the entire process. Here, I created a login registration system using jwt access token where any user can try to register/login with email and password securely. This registration system also contain signin with google popup, accept terms, do a password reset etc. It has header, footer, and many components such as Banner, Blogs, Contact, Home, InventoryItems,Speciality, StoreMapLocation etc. I have used react router to create navigation bar, set route, protected route, restrictions etc. In manage inventories, user can add item, manage item, delete item, see my items etc. User can update an inventory stock, restock item, deliver item where quantity decreases etc. For look and style, I used tailwind css framework, tailwind-elements, flowbite, toastify, google fonts, react-hook-form etc",
+    project_url: "https://github.com/robinrakibul/camping-gears-react-client",
   },
   {
     id: 2,
-    project: "Project Name",
+    project: "Car Repair Services",
     totalLike: "750",
-    title: "Mobile app landing design & maintain",
+    title: "Car repair services management full stack web project using reactjs, mongodb, nodejs",
     image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
+    description: "Main tools used in this project: Node server, React app, Bootstrap5, Firebase etc",
+    project_url: "https://github.com/robinrakibul/car-repair-services-react-client",
   },
   {
     id: 3,
-    project: "Project Name",
+    project: "A Famous Writer",
     totalLike: "630",
-    title: "Logo design creativity & Application ",
+    title: "A reactjs project based on a writer called Muhammed Zafar Iqbal",
     image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
-  },
-  {
-    id: 4,
-    project: "Project Name",
-    totalLike: "360",
-    title: "Mobile app landing design & Services",
-    image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
-  },
-  {
-    id: 5,
-    project: "Project Name",
-    totalLike: "280",
-    title: "Design for tecnology & services",
-    image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
-  },
-  {
-    id: 6,
-    project: "Project Name",
-    totalLike: "690",
-    title: "App for tecnology & services",
-    image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
-  },
+    description: "This website is created to control a warehouse. In this project, I have used camping idea to implement the entire process. Here, I created a login registration system using jwt access token where any user can try to register/login with email and password securely. This registration system also contain signin with google popup, accept terms, do a password reset etc. It has header, footer, and many components such as Banner, Blogs, Contact, Home, InventoryItems,Speciality, StoreMapLocation etc. I have used react router to create navigation bar, set route, protected route, restrictions etc. In manage inventories, user can add item, manage item, delete item, see my items etc. User can update an inventory stock, restock item, deliver item where quantity decreases etc. For look and style, I used tailwind css framework, tailwind-elements, flowbite, toastify, google fonts, react-hook-form etc",
+    project_url: "https://github.com/robinrakibul/camping-gears-react-client",
+  }
 ]
 export default Portfolio_data

@@ -94,11 +94,7 @@ button {
 h1 {
   color: #3c3e41;
 }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 35px;
-}
+
 p {
   color: #3c3e41;
 }

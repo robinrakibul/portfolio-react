@@ -36,18 +36,18 @@ const Card = (props) => {
       {modal && (
         <div className='modal'>
           <div onClick={toggleModal} className='overlay'></div>
-          <div className='modal-content d_flex'>
-            <div className='modal-img left'>
+          <div className='modal-content flex flex-col md:flex-row lg:flex-row'>
+            <div className='w-2/3 md:w-max'>
               <img src={props.image} alt='' />
             </div>
-            <div className='modal-text right'>
-              <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
-              <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  Check<i class='fas fa-chevron-right'></i>
-                </button>
+            <div className='modal-text'>
+              <span>About This Project</span>
+              <p className="font-bold mt-3">{props.title}</p>
+              <p>{props.description}... <a className="text-blue-500 hover:text-blue-600 font-light" href={props.project_url + '/blob/main/README.md'}>Read More</a></p>
+              <div className='button'>
+                <a href={props.project_url}><button className="btn_shadow">
+                  Check Project<i class='fas fa-chevron-right'></i>
+                </button></a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i className='fas fa-times'></i>
