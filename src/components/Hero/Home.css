@@ -21,6 +21,9 @@
 .hero h2 span {
   color: black;
 }
+.typewriter-text h2{
+  font-size: 40px !important;
+}
 .hero p {
   color: #343639;
   font-size: 18px;

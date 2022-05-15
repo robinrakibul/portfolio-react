@@ -3,7 +3,7 @@ import "./Home.css"
 import hero from "../../images/hero.png"
 import skill2 from "../../images/fiverr.png"
 import skill3 from "../../images/behance.png"
-import { Typewriter } from "react-simple-typewriter"
+import Typewriter from 'typewriter-effect';
 import 'flowbite';
 import 'tw-elements';
 
@@ -14,22 +14,28 @@ const Home = () => {
         <div className='container f_flex'>
           <div className='left'>
             <h3 className="head-text mt-32 md:mt-10">Welcome to my portfolio</h3>
-            <h2>
+            <h2 className="mt-5">
               Hi, I'm <span>Rakibul Hassan</span>
             </h2>
-            <h2>
-              A Web
-              <span>
-                <Typewriter words={[" Developer", " Designer"]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
-              </span>
-            </h2>
-
+            <div className="typewriter-text">
+              <h2>
+                A&nbsp;
+                <div className="inline-block">
+                  <Typewriter options={{
+                    strings: ['Junior Web Developer', 'Frontend Developer', 'Web Designer',],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                  />
+                </div>
+              </h2>
+            </div>
             <p>
               I am a web developer from Dhaka, Bangladesh. My expertise is in front-end web development. I know ReactJs, NodeJs, Express MongoDB, etc.
               I have a beautiful taste in technology.
               I have done a full stack web development course from programming hero to getting certified and now I am ready to put myself in working sectors.
             </p>
-            
+
             <button type="button" className="mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-3.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" data-mdb-ripple="true" data-mdb-ripple-color="light">Get In Touch</button>
           </div>
           <div className='right'>
