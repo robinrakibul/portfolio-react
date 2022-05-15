@@ -43,19 +43,19 @@ const Home = () => {
           <div>
             <h4 className="mt-16">Find Me On Social Sites</h4>
             <div className='mt-2'>
-              <a href="https://www.facebook.com/robinrakibul" target='_blank'>
+              <a href="https://www.facebook.com/robinrakibul" target='_blank' rel="noreferrer">
                 <button className='btn_shadow'>
-                  <i class='fab fa-facebook-f text-blue-500'></i>
+                  <i className='fab fa-facebook-f text-blue-500'></i>
                 </button>
               </a>
-              <a href="https://www.facebook.com/robinrakibul" target='_blank'>
+              <a href="https://www.facebook.com/robinrakibul" target='_blank' rel="noreferrer">
                 <button className='btn_shadow ml-5'>
-                  <i class='fab fa-instagram text-orange-500'></i>
+                  <i className='fab fa-instagram text-orange-500'></i>
                 </button>
               </a>
-              <a href="https://www.linkedin.com/in/robinrakibul" target='_blank'>
+              <a href="https://www.linkedin.com/in/robinrakibul" target='_blank' rel="noreferrer">
                 <button className='btn_shadow ml-0 mt-5 md:ml-5 md:mt-0'>
-                  <i class='fab fa-linkedin text-blue-500'></i>
+                  <i className='fab fa-linkedin text-blue-500'></i>
                 </button>
               </a>
             </div>
@@ -63,17 +63,17 @@ const Home = () => {
           <div>
             <h4 className="ml-10 mt-16">Find My Works</h4>
             <div className="mt-2">
-              <a href="https://github.com/robinrakibul" target='_blank'>
+              <a href="https://github.com/robinrakibul" target='_blank' rel="noreferrer">
                 <button className='btn_shadow ml-10'>
-                  <i class='fab fa-github text-black'></i>
+                  <i className='fab fa-github text-black'></i>
                 </button>
               </a>
-              <a href="https://www.fiverr.com/robinrakibul" target='_blank'>
+              <a href="https://www.fiverr.com/robinrakibul" target='_blank' rel="noreferrer">
                 <button className='btn_shadow ml-5'>
                   <img className="fab" width='20px' src={skill2} alt="" />
                 </button>
               </a>
-              <a href="https://www.behance.net/robinrakibul" target='_blank'>
+              <a href="https://www.behance.net/robinrakibul" target='_blank' rel="noreferrer">
                 <button className='btn_shadow mt-5 ml-10 md:ml-5 md:mt-0'>
                   <img className="fab" width='20px' src={skill3} alt="" />
                 </button>

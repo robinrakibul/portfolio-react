@@ -27,7 +27,7 @@ const Card = (props) => {
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title}</h2>
           <a href='#popup' className='arrow' onClick={toggleModal}>
-            <i class='fas fa-arrow-right'></i>
+            <i className='fas fa-arrow-right'></i>
           </a>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Card = (props) => {
               <p>{props.description}... <a className="text-blue-500 hover:text-blue-600 font-light" href={props.project_url + '/blob/main/README.md'}>Read More</a></p>
               <div className='button'>
                 <a href={props.project_url}><button className="btn_shadow">
-                  Check Project<i class='fas fa-chevron-right'></i>
+                  Check Project<i className='fas fa-chevron-right'></i>
                 </button></a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>

@@ -15,7 +15,7 @@ const Header = () => {
       <header className='header'>
         <div className='container px-2 flex justify-between'>
           <div className='logo mt-3 md:mt-2'>
-            <img src={logo} className='w-10 mt-1' alt='' />
+            <a href="/"><img src={logo} className='w-10 mt-1 cursor-pointer' alt='' /></a>
           </div>
 
           <div className='navlink mt-1 mr-2'>
@@ -25,16 +25,13 @@ const Header = () => {
                 <a href='#home'>home</a>
               </li>
               <li>
-                <a href='#features'>features</a>
+                <a href='#skills'>skills</a>
               </li>
               <li>
-                <a href='#portfolio'>portfolio</a>
+                <a href='#portfolio'>projects</a>
               </li>
               <li>
                 <a href='#resume'>resume</a>
-              </li>
-              <li>
-                <a href='#blog'>blog</a>
               </li>
               <li>
                 <a href='#contact'>contact</a>

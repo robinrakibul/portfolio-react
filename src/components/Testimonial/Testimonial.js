@@ -43,7 +43,7 @@ const Testimonial = () => {
 
             <div className='slide_button'>
               <button className='btn_shadow prev_btn' onClick={() => setIndex(index - 1)}>
-                <i class='fas fa-arrow-left'></i>
+                <i className='fas fa-arrow-left'></i>
               </button>
               <button className='btn_shadow next_btn' onClick={() => setIndex(index + 1)}>
                 <i className='fas fa-arrow-right'></i>
