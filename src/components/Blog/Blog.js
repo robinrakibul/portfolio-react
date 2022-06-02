@@ -14,7 +14,7 @@ const Blog = () => {
             <h4>CHECK MY RESEARCH WORKS AND FIVERR PROFILE</h4>
             <h1 className="font-bold mb-4">My Research And Freelancing</h1>
 
-            <div className="flex justify-around mt-3 mb-3">
+            <div className="flex justify-around flex-wrap mt-3 mb-3">
               <div className="duration-300 mb-10 flex flex-col justify-center bg-white p-10 rounded-3xl mt-5">
                 <img src={researchImg} className="hover:scale-90 justify-start mb-3" alt="" />
               <br />

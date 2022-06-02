@@ -45,42 +45,42 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='flex container'>
+        <div className='flex flex-wrap container'>
           <div>
-            <h4 className="mt-16">Find Me On Social Sites</h4>
+            <h4 className="mt-16">Find Me Online:</h4>
             <div className='mt-2'>
               <a href="https://www.facebook.com/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow'>
+                <button className='btn_shadow p-2'>
                   <i className='fab fa-facebook-f text-blue-500'></i>
                 </button>
               </a>
               <a href="https://www.facebook.com/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow ml-5'>
+                <button className='btn_shadow p-2'>
                   <i className='fab fa-instagram text-orange-500'></i>
                 </button>
               </a>
+              <a href="https://www.twitter.com/robinrakibul_" target='_blank' rel="noreferrer">
+                <button className='btn_shadow p-2'>
+                  <i className='fab fa-twitter text-orange-500'></i>
+                </button>
+              </a>
               <a href="https://www.linkedin.com/in/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow mt-5 ml-5 md:ml-5 md:mt-0'>
+                <button className='btn_shadow'>
                   <i className='fab fa-linkedin text-blue-500'></i>
                 </button>
               </a>
-            </div>
-          </div>
-          <div>
-            <h4 className="ml-10 mt-16">Find My Works</h4>
-            <div className="mt-2">
               <a href="https://github.com/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow ml-10'>
+                <button className='btn_shadow'>
                   <i className='fab fa-github text-black'></i>
                 </button>
               </a>
               <a href="https://www.fiverr.com/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow ml-5'>
+                <button className='btn_shadow'>
                   <img className="fab" width='20px' src={skill2} alt="" />
                 </button>
               </a>
               <a href="https://www.behance.net/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow mt-5 ml-5 md:ml-5 md:mt-0'>
+                <button className='btn_shadow'>
                   <img className="fab" width='20px' src={skill3} alt="" />
                 </button>
               </a>
