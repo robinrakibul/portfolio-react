@@ -20,7 +20,7 @@ const Home = () => {
             <div className="typewriter-text">
               <h2>
                 A&nbsp;
-                <div className="inline-block">
+                <div className="inline-block text-2xl md:text-3xl lg:text-3xl">
                   <Typewriter options={{
                     strings: ['Junior Web Developer', 'Frontend Developer', 'Web Designer',],
                     autoStart: true,
@@ -60,7 +60,7 @@ const Home = () => {
                 </button>
               </a>
               <a href="https://www.linkedin.com/in/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow ml-0 mt-5 md:ml-5 md:mt-0'>
+                <button className='btn_shadow mt-5 ml-5 md:ml-5 md:mt-0'>
                   <i className='fab fa-linkedin text-blue-500'></i>
                 </button>
               </a>
@@ -80,7 +80,7 @@ const Home = () => {
                 </button>
               </a>
               <a href="https://www.behance.net/robinrakibul" target='_blank' rel="noreferrer">
-                <button className='btn_shadow mt-5 ml-10 md:ml-5 md:mt-0'>
+                <button className='btn_shadow mt-5 ml-5 md:ml-5 md:mt-0'>
                   <img className="fab" width='20px' src={skill3} alt="" />
                 </button>
               </a>

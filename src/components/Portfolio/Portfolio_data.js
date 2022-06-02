@@ -25,6 +25,15 @@ const Portfolio_data = [
     image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
     description: "This website is created to control a warehouse. In this project, I have used camping idea to implement the entire process. Here, I created a login registration system using jwt access token where any user can try to register/login with email and password securely. This registration system also contain signin with google popup, accept terms, do a password reset etc. It has header, footer, and many components such as Banner, Blogs, Contact, Home, InventoryItems,Speciality, StoreMapLocation etc. I have used react router to create navigation bar, set route, protected route, restrictions etc. In manage inventories, user can add item, manage item, delete item, see my items etc. User can update an inventory stock, restock item, deliver item where quantity decreases etc. For look and style, I used tailwind css framework, tailwind-elements, flowbite, toastify, google fonts, react-hook-form etc",
     project_url: "https://github.com/robinrakibul/camping-gears-react-client",
+  },
+  {
+    id: 4,
+    project: "Expense Tracker System",
+    totalLike: "630",
+    title: "A reactjs project based on a writer called Muhammed Zafar Iqbal",
+    image: "https://i.ibb.co/rf2yVRy/project-management-planning-development-message-box-notification-graphic-1.jpg",
+    description: "This website is created to control a warehouse. In this project, I have used camping idea to implement the entire process. Here, I created a login registration system using jwt access token where any user can try to register/login with email and password securely. This registration system also contain signin with google popup, accept terms, do a password reset etc. It has header, footer, and many components such as Banner, Blogs, Contact, Home, InventoryItems,Speciality, StoreMapLocation etc. I have used react router to create navigation bar, set route, protected route, restrictions etc. In manage inventories, user can add item, manage item, delete item, see my items etc. User can update an inventory stock, restock item, deliver item where quantity decreases etc. For look and style, I used tailwind css framework, tailwind-elements, flowbite, toastify, google fonts, react-hook-form etc",
+    project_url: "https://github.com/robinrakibul/camping-gears-react-client",
   }
 ]
 export default Portfolio_data
