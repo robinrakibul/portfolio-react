@@ -31,21 +31,21 @@ const Resume = () => {
             </div>
             <div className='flex flex-col'>
               <div className='heading'>
-                <h1>Expertise</h1>
+                <h1>Skills</h1>
               </div>
               <div className='content justify-center align-middle w-2/3'>
                 <ol className="box hover:text-white hover:bg-blue-700 hover:translate-x-0 duration-500 rounded cursor-pointer border-4 border-white">
-                  <li>I am specialized in web development</li>
-                  <li>I am very good at HTML, CSS, JavaScript, Bootstrap, Tailwind, ReactJs, MongoDb</li>
-                  <li>Have Knowledge on NodeJS, Express, ES6</li>
-                  <li>I can make websites responsive</li>
-                  <li>Used figma, adobe xd for Ui design</li>
-                  <li>Proficiency in programming language C and C++</li>
-                  <li>Have experience working in Linux OS</li>
-                  <li>Proficiency in database management</li>
-                  <li>I am very good at english</li>
-                  <li>Proficiency in Microsoft office and Adobe applications</li>
-                  <li>Very good skill in report writing and research</li>
+                  <li><b>Expert skills:</b> HTML, CSS, JavaScript, ES6, REST API, Bootstrap, Tailwind, React, Single Page Application, React Router, React Hook, React Hook Form</li>
+                  <li><b>Familiar with:</b>  NodeJs, ExpressJs, MongoDB, React Hook Form, Jsonwebtoken, React Query, Stripe, Axios</li>
+                  <li><b>Tools:</b>  Visual Studio Code, Github, Netlify, Postman, Firebase, Chrome dev-tool, Heroku, Figma, Adobe Xd</li>
+                  <li>
+                    <b>Other skills:</b>
+                    <li>Ui/Ux Designing with Adobe XD/Figma Application, Adobe applications for graphics designing,</li>
+                   <li>Programming Languages: C, C++, JavaScript,</li>
+                   <li>Have experience in Linux OS such as Ubuntu, Kali Linux,</li>
+                    <li>Report writing and research,</li>
+                  </li>
+
                 </ol>
                 <div>
                   <h1 className="text-2xl mt-5 mb-5">Language Preference</h1>

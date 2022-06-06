@@ -19,7 +19,7 @@ const Blog = () => {
                 <img src={researchImg} className="hover:scale-90 justify-start mb-3" alt="" />
               <br />
               <a href="https://www.researchgate.net/profile/Md-Rakibul-Hassan-Robin" target="_blank" rel="noopener noreferrer">
-              <button className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-400 font-medium rounded-lg text-sm px-8 py-3.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 mt-3" data-mdb-ripple="true" data-mdb-ripple-color="light">Check my gigs</button></a>
+              <button className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-400 font-medium rounded-lg text-sm px-8 py-3.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 mt-3" data-mdb-ripple="true" data-mdb-ripple-color="light">Check My Researches</button></a>
               </div>
               <div className="fiverrImg duration-300 mb-10 flex flex-col justify-center bg-white p-10 rounded-3xl mt-5">
                 <img src={fiverrProfileImg} className="hover:scale-90 justify-start mb-3" alt="" />
