@@ -21,13 +21,33 @@ const Portfolio_data = [
   },
   {
     id: 3,
+    project: "A Famous Writer",
+    totalLike: "300",
+    title: "An API based frontend web project with reactjs",
+    image: "https://i.ibb.co/WVzkrb9/writer.png",
+    description: "I have created a website by a writer named, Muhammed Zafar Iqbal. In this project, I used React, Tailwind CSS, Firebase for authentication, and API for storing website data.",
+    project_url: "https://github.com/robinrakibul/zafar-iqbal-writer-react",
+    live_url: "https://independent-service-prov-4ddd4.web.app/",
+  },
+  {
+    id: 4,
     project: "Car Repair Services",
     totalLike: "750",
-    title: "Car repair services management full stack web project using reactjs, mongodb, nodejszz",
+    title: "Car repair services management full stack web project using reactjs, mongodb, nodejs etc",
     image: "https://i.ibb.co/YjKytD7/car.png",
     description: "Main tools used in this project: Node server, React app, Bootstrap5, Firebase etc",
     project_url: "https://github.com/robinrakibul/car-repair-services-react-client",
     live_url: "https://car-repair-services-c9851.web.app/",
   },
+  {
+    id: 5,
+    project: "Expense Tracker System",
+    totalLike: "750",
+    title: "This expense tracking system php, mysql web project",
+    image: "https://i.ibb.co/cLsFMDY/expense.png",
+    description: "This project is created using php, mysql. I did this project in my educational institution",
+    project_url: "https://github.com/robinrakibul/Expense-Tracker-System-Using-PHP-MySQL",
+    live_url: "https://expense-tracker-system-php.000webhostapp.com/",
+  }
 ]
 export default Portfolio_data

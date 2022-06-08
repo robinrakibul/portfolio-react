@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
                 <div className='details'>
                   <h1>Md. Rakibul Hassan Robin</h1>
-                  <p>Junior Web Developer</p>
+                  <p>Web Developer</p>
                   <p>Phone: +8801403214161</p>
                   <p>Email: robinrakibulhassan@gmail.com</p> <br />
                 </div>
