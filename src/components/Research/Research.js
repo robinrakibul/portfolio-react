@@ -1,14 +1,14 @@
 import React from "react"
 import "../Portfolio/Portfolio.css"
-import "../Blog/Blog.css"
+import "../Research/Research.css"
 import 'tw-elements'
 import researchImg from "../../images/research.jpg"
 import fiverrProfileImg from "../../images/fiverr_profile_img.jpg"
 
-const Blog = () => {
+const Research = () => {
   return (
     <>
-      <section className='Portfolio Blog' id='research'>
+      <section className='Portfolio Research' id='research'>
         <div className='container top'>
           <div className='heading text-center'>
             <h4>CHECK MY RESEARCH WORKS AND FIVERR PROFILE</h4>
@@ -63,4 +63,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Research

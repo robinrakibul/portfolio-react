@@ -1,0 +1,9 @@
+.researchimg img {
+  width: 50%;
+  transition: 1s;
+  cursor: pointer;
+}
+.fiverrImg img{
+  width: 50%;
+  border-radius: 15px 50px
+}
