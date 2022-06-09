@@ -16,7 +16,7 @@ const Portfolio = () => {
 
           <div className='content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} project={value.project} totalLike={value.totalLike} title={value.title} description={value.description.slice(0,100)} project_url={value.project_url} live_url={value.live_url}/>
+              return <Card key={index} image={value.image} image2={value.image2} image3={value.image3} project={value.project} totalLike={value.totalLike} title={value.title} description={value.description.slice(0,100)} project_url={value.project_url} live_url={value.live_url}/>
             })}
           </div>
         </div>

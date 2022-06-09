@@ -77,21 +77,21 @@ const Card = (props) => {
                 <div class="carousel-inner relative w-full overflow-hidden">
                   <div class="carousel-item active relative float-left w-full">
                     <img
-                      src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+                      src={props.image}
                       class="block w-full"
                       alt="..."
                     />
                   </div>
                   <div class="carousel-item relative float-left w-full">
                     <img
-                      src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+                      src={props.image2}
                       class="block w-full"
                       alt="..."
                     />
                   </div>
                   <div class="carousel-item relative float-left w-full">
                     <img
-                      src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+                      src={props.image3}
                       class="block w-full"
                       alt="..."
                     />
@@ -117,7 +117,7 @@ const Card = (props) => {
                 </button>
               </div>
             </div>
-            <div className='modal-text'>
+            <div className='modal-text w-2/3'>
               <p className="font-bold mt-3">{props.project}</p>
               <h5 className="font-bold mt-3">{props.title}</h5>
               <br />
