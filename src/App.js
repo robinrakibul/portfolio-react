@@ -1,24 +1,22 @@
 import React from "react";
 import Header from "./components/Head/Header";
-import Features from "./components/Features/Features";
 import Home from "./components/Hero/Home";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Resume from "./components/Resume/Resume";
-import Research from "./components/Research/Research";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Blogs from "./components/Blogs/Blogs";
+import Error from "./components/Error/Error";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Home />
-      <Features />
-      <Portfolio />
-      <Resume />
-      <Research />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route> 
+        <Route path="/home" element={<Home></Home>}></Route> 
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route> 
+        <Route path="*" element={<Error></Error>}></Route> 
+      </Routes>
       <Footer />
     </>
   )

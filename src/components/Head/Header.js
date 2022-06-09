@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import logo from "../../images/logo.png"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   // fixed Header
@@ -32,6 +33,9 @@ const Header = () => {
               </li>
               <li>
                 <a href='#resume'>resume</a>
+              </li>
+              <li>
+                <Link to="blogs">Blogs</Link>
               </li>
               <li>
                 <a href='#contact'>contact</a>

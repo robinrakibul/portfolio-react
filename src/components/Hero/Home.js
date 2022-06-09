@@ -6,6 +6,11 @@ import skill3 from "../../images/behance.png"
 import Typewriter from 'typewriter-effect';
 import 'flowbite';
 import 'tw-elements';
+import Features from "../Features/Features"
+import Portfolio from "../Portfolio/Portfolio";
+import Resume from "../Resume/Resume";
+import Research from "../Research/Research";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -88,6 +93,11 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Features />
+      <Portfolio />
+      <Resume />
+      <Research />
+      <Contact />
     </>
   )
 }
