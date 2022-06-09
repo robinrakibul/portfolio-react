@@ -90,13 +90,13 @@ body.active-modal {
   bottom: 12%;
   line-height: 1.4;
   background: #f0f3f5;
-  padding: 14px 28px;
+  padding: 10px 10px;
   border-radius: 3px;
   max-width: 85%;
-  min-width: 60%;
+  min-width: 70%;
   z-index: 9999;
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-  padding: 50px;
+  padding: 40px;
   border-radius: 10px;
 }
 
