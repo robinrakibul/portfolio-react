@@ -11,6 +11,8 @@ import Portfolio from "../Portfolio/Portfolio";
 import Resume from "../Resume/Resume";
 import Research from "../Research/Research";
 import Contact from "../Contact/Contact";
+import Particle from "../Particles/Particle"
+
 
 const Home = () => {
   return (
@@ -98,6 +100,7 @@ const Home = () => {
       <Resume />
       <Research />
       <Contact />
+      <Particle></Particle>
     </>
   )
 }
