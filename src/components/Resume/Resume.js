@@ -23,10 +23,9 @@ const Resume = () => {
 
               <div className='content justify-center align-middle w-full md:w-2/3'>
                 {ResumeApi.map((val, id) => {
-                  if (val.category === "education") {
-                    return <Card key={id} category={val.category} exam={val.exam} institute={val.institute} major={val.major} year={val.year} rate={val.rate} desc={val.desc} />
-                  }
-                })}
+                  return <Card key={id} category={val.category} exam={val.exam} institute={val.institute} major={val.major} year={val.year} rate={val.rate} desc={val.desc} />
+                }
+                )}
               </div>
             </div>
             <div className='flex flex-col'>
@@ -41,8 +40,8 @@ const Resume = () => {
                   <li>
                     <b>Other skills:</b>
                     <li>Ui/Ux Designing with Adobe XD/Figma Application, Adobe applications for graphics designing,</li>
-                   <li>Programming Languages: C, C++, JavaScript,</li>
-                   <li>Have experience in Linux OS such as Ubuntu, Kali Linux,</li>
+                    <li>Programming Languages: C, C++, JavaScript,</li>
+                    <li>Have experience in Linux OS such as Ubuntu, Kali Linux,</li>
                     <li>Report writing and research,</li>
                   </li>
 
