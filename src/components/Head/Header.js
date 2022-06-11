@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import "./header.css"
 import logo from "../../images/logo.png"
 import { Link } from "react-router-dom";
+import { NavHashLink } from 'react-router-hash-link';
+
 
 const Header = () => {
   // fixed Header
@@ -23,22 +25,22 @@ const Header = () => {
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
-                <a href='#home'>home</a>
+                <NavHashLink to='/'>home</NavHashLink>
               </li>
               <li>
-                <a href='#skills'>skills</a>
+                <NavHashLink to='/home#skills'>skills</NavHashLink>
               </li>
               <li>
-                <a href='#portfolio'>projects</a>
+                <NavHashLink to='/home#portfolio'>projects</NavHashLink>
               </li>
               <li>
-                <a href='#resume'>resume</a>
+                <NavHashLink to='/home#resume'>resume</NavHashLink>
               </li>
               <li>
                 <Link to="blogs">Blogs</Link>
               </li>
               <li>
-                <a href='#contact'>contact</a>
+                <NavHashLink to='home#contact'>contact</NavHashLink>
               </li>
             </ul>
 
