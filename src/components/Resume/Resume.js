@@ -21,7 +21,7 @@ const Resume = () => {
                 <h1>Education Quality</h1>
               </div>
 
-              <div className='content justify-center align-middle w-2/3'>
+              <div className='content justify-center align-middle w-full md:w-2/3'>
                 {ResumeApi.map((val, id) => {
                   if (val.category === "education") {
                     return <Card key={id} category={val.category} exam={val.exam} institute={val.institute} major={val.major} year={val.year} rate={val.rate} desc={val.desc} />
@@ -33,7 +33,7 @@ const Resume = () => {
               <div className='heading'>
                 <h1>Skills</h1>
               </div>
-              <div className='content justify-center align-middle w-2/3'>
+              <div className='content justify-center align-middle w-full md:w-2/3'>
                 <ol className="box hover:text-white hover:bg-blue-700 hover:translate-x-0 duration-500 rounded cursor-pointer border-4 border-white">
                   <li><b>Expert skills:</b> HTML, CSS, JavaScript, ES6, REST API, Bootstrap, Tailwind, React, Single Page Application, React Router, React Hook, React Hook Form</li>
                   <li><b>Familiar with:</b>  NodeJs, ExpressJs, MongoDB, React Hook Form, Jsonwebtoken, React Query, Stripe, Axios</li>
