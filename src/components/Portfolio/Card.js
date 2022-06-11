@@ -28,15 +28,15 @@ const Card = (props) => {
         <h2 onClick={toggleModal}>{props.title}</h2>
         <div className='title inline-flex'>
           <a href={props.live_url} target="_blank" rel="noreferrer">
-            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-blue-600 to-blue-500 group-hover:from-blue-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-blue-600 to-blue-500 group-hover:from-blue-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                 Live Website
               </span>
             </button>
           </a>
           <a href='#popup' onClick={toggleModal}>
-            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-600 to-green-500 group-hover:from-green-600 group-hover:to-green-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-green-800">
-              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-600 to-green-500 group-hover:from-green-600 group-hover:to-green-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-green-800">
+              <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                 Show Details
               </span>
             </button>
@@ -46,18 +46,18 @@ const Card = (props) => {
 
       {/* Popup box */}
       {modal && (
-        <div className='modal'>
+        <div className='modal max-h-full'>
           <div onClick={toggleModal} className='overlay'></div>
           <div className='modal-content flex flex-col md:flex-row lg:flex-row'>
-            <div className='w-2/3 md:mt-10 md:w-full'>
+            <div className='w-full md:mt-10 md:w-2/3'>
               {/* Modal Image Carousel */}
-              <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+              <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
+                <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                   <button
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide-to="0"
-                    class="active"
+                    className="active"
                     aria-current="true"
                     aria-label="Slide 1"
                   ></button>
@@ -74,55 +74,55 @@ const Card = (props) => {
                     aria-label="Slide 3"
                   ></button>
                 </div>
-                <div class="carousel-inner relative w-full overflow-hidden">
-                  <div class="carousel-item active relative float-left w-full">
+                <div className="carousel-inner relative w-full overflow-hidden">
+                  <div className="carousel-item active relative float-left w-full">
                     <img
                       src={props.image}
-                      class="block w-full"
+                      className="block w-full"
                       alt="..."
                     />
                   </div>
-                  <div class="carousel-item relative float-left w-full">
+                  <div className="carousel-item relative float-left w-full">
                     <img
                       src={props.image2}
-                      class="block w-full"
+                      className="block w-full"
                       alt="..."
                     />
                   </div>
-                  <div class="carousel-item relative float-left w-full">
+                  <div className="carousel-item relative float-left w-full">
                     <img
                       src={props.image3}
-                      class="block w-full"
+                      className="block w-full"
                       alt="..."
                     />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                  className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
                   type="button"
                   data-bs-target="#carouselExampleCaptions"
                   data-bs-slide="prev"
                 >
-                  <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                  className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
                   type="button"
                   data-bs-target="#carouselExampleCaptions"
                   data-bs-slide="next"
                 >
-                  <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
-            <div className='modal-text w-2/3'>
+            <div className='modal-text w-full mt-5 md:w-2/3'>
               <p className="font-bold mt-3">{props.project}</p>
-              <h5 className="font-bold mt-3">{props.title}</h5>
+              <h5 className="font-bold mt-6">{props.title}</h5>
               <br />
               <p>{props.description}... <a className="text-blue-500 hover:text-blue-600 font-light" href={props.project_url + '/blob/main/README.md'}>Read More</a></p>
-              <div className='button'>
+              <div className='button flex justify-center mt-10'>
                 <a href={props.project_url}><button className="btn_shadow">
                   Check Project<i className='fas fa-chevron-right'></i>
                 </button></a>
