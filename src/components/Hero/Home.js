@@ -20,7 +20,7 @@ const Home = () => {
       <section className='hero' id='home'>
         <div className='container f_flex'>
           <div className='left'>
-            <h3 className="head-text mt-32 md:mt-10">Welcome to my portfolio</h3>
+            <h3 className="head-text">Welcome to my portfolio</h3>
             <h2 className="mt-5">
               Hi, I'm <span>Rakibul Hassan</span>
             </h2>
@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
               </h2>
             </div>
-            <p>
+            <p className="pr-10 md:pr-5">
               I am a web developer from Dhaka, Bangladesh. My expertise is in front-end web development. I know ReactJs, NodeJs, Express MongoDB, etc.
               I have a beautiful taste in technology.
               I have done a full stack web development course from programming hero to getting certified and now I am ready to put myself in working sectors.

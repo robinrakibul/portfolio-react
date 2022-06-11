@@ -23,7 +23,6 @@ const Header = () => {
 
           <div className='navlink mt-1 mr-2'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
-              {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
                 <NavHashLink to='/'>home</NavHashLink>
               </li>
@@ -45,7 +44,7 @@ const Header = () => {
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <i className='fas fa-circle-xmark close'></i> : <i className='fas fa-bars open top-5 right-5'></i>}
+              {Mobile ? <i className='fas fa-circle-xmark close'></i> : <i className='fas fa-bars open top-5 right-3'></i>}
             </button>
           </div>
         </div>
