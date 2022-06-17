@@ -121,9 +121,9 @@ const Card = (props) => {
               <p className="font-bold mt-3">{props.project}</p>
               <h5 className="font-bold mt-6">{props.title}</h5>
               <br />
-              <p>{props.description}... <a className="text-blue-500 hover:text-blue-600 font-light" href={props.project_url + '/blob/main/README.md'}>Read More</a></p>
+              <p>{props.description}... <a  className="text-blue-500 hover:text-blue-600 font-light" href={props.project_url + '/blob/main/README.md'} target="_blank" rel="noreferrer">Read More</a></p>
               <div className='button flex justify-center mt-10'>
-                <a href={props.project_url}><button className="btn_shadow">
+                <a href={props.project_url} target="_blank" rel="noreferrer"><button className="btn_shadow">
                   Check Project<i className='fas fa-chevron-right'></i>
                 </button></a>
               </div>
