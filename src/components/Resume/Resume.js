@@ -30,7 +30,18 @@ const Resume = () => {
             </div>
             <div className='flex flex-col'>
               <div className='heading'>
-                <h1>Skills</h1>
+                <h1 className="mb-3">Skills</h1>
+                <div className="skill_icons container border-blue-300 flex flex-row justify-center p-4 border-t-2 border-b-2 align-middle mt-5 mb-5">
+                  <img src="https://img.icons8.com/plasticine/48/000000/react.png" alt="" />
+                  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png" alt="" />
+                  <img src="https://img.icons8.com/fluency/48/000000/node-js.png" alt=""/>
+                  <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="" />
+                  <img src="https://img.icons8.com/color/48/000000/css3.png" alt="" />
+                  <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="" />
+                  <img src="https://img.icons8.com/material-outlined/48/000000/api-settings.png" alt=""/>
+                  <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt=""/>
+                  <img src="https://i.ibb.co/2WGtr3z/social-square-b622e290e82093c36cca57092ffe494f.jpg" alt="" />
+                </div>
               </div>
               <div className='content justify-center align-middle w-full md:w-2/3'>
                 <ol className="box hover:text-white hover:bg-blue-700 hover:translate-x-0 duration-500 rounded cursor-pointer border-4 border-white">
