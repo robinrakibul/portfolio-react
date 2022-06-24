@@ -27,7 +27,7 @@ const Portfolio_data = [
     id: 3,
     project: "A Famous Writer",
     totalLike: "300",
-    title: "An API based frontend web project with reactjs",
+    title: "A MERN full stack basic web project based on the idea of an independent service provider",
     image: "https://i.ibb.co/WVzkrb9/writer.png",
     image2: "https://i.ibb.co/DQ2JSw9/independent2.png",
     image3: "https://i.ibb.co/8s2Zy9Y/independent3.png",
