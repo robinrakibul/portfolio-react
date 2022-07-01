@@ -133,6 +133,20 @@ body.active-modal {
 .modal-text button.close-modal i {
   margin: 0;
 }
+
+.card2{
+  width: fit-content;
+  margin: 10px;
+}
+
+.card2 img:hover{
+  transform: scale(0.9);
+}
+
+.custom-button button:hover{
+  background: #2094e8;
+}
+
 /*------------popup--------*/
 @media (max-width: 768px) {
   .modal-text {
