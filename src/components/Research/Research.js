@@ -9,10 +9,9 @@ const Research = () => {
   return (
     <>
       <section className='Portfolio Research' id='research'>
-        <div className='container top'>
+        <div className='container'>
           <div className='heading text-center'>
-            <h4>CHECK MY RESEARCH WORKS AND FIVERR PROFILE</h4>
-            <h1 className="font-bold mb-4">My Research And Freelancing</h1>
+            <h4>CHECK MY RESEARCH WORKS</h4>
 
             <div className="flex justify-around flex-wrap mt-3 mb-3">
               <div className="duration-300 mb-10 flex flex-col justify-center bg-white p-10 rounded-3xl mt-5">
@@ -21,7 +20,7 @@ const Research = () => {
               <a href="https://www.researchgate.net/profile/Md-Rakibul-Hassan-Robin" target="_blank" rel="noopener noreferrer">
               <button className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-400 font-medium rounded-lg text-sm px-8 py-3.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 mt-3" data-mdb-ripple="true" data-mdb-ripple-color="light">Check My Researches</button></a>
               </div>
-              <div className="fiverrImg duration-300 mb-10 flex flex-col justify-center bg-white p-10 rounded-3xl mt-5">
+              {/* <div className="fiverrImg duration-300 mb-10 flex flex-col justify-center bg-white p-10 rounded-3xl mt-5">
                 <img src={fiverrProfileImg} className="hover:scale-90 justify-start mb-3" alt="" />
                 <p className="text-black flex justify-start">Fiverr Seller</p>
                 <small className="flex justify-start mb-3">Programming & Tech</small>
@@ -54,7 +53,7 @@ const Research = () => {
               </ul>
               <br />
               <a href="https://www.fiverr.com/robinrakibul" target="_blank" rel="noopener noreferrer"><button className="text-white bg-[#35c350] hover:bg-[#29973d] focus:ring-4 focus:ring-green-400 font-medium rounded-lg text-sm px-8 py-3.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800 mt-3" data-mdb-ripple="true" data-mdb-ripple-color="light">Check my gigs</button></a>
-              </div>
+              </div> */}
           </div>
         </div>
       </div>
